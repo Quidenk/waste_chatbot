@@ -12,6 +12,7 @@ import torch
 import torch.nn as nn
 from torchvision import models, transforms
 import random
+import socket
 
 port = int(os.environ.get("PORT", 5000))
 app = Flask(__name__)
